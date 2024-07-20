@@ -1,0 +1,29 @@
+.main__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.banner_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 116.25rem;
+    width: 100%;
+    height: auto;
+    
+}
+
+.banner__container_img{
+    width: 100%;
+    height: auto;
+    padding: 0.6875rem;
+    
+}
+
+.banner__img{
+    width: 100%;
+    height: auto;
+    border-radius: 1rem;
+}

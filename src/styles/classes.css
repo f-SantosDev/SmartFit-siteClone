@@ -1,0 +1,219 @@
+.classes__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.teste{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.exclusive__classes__container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    padding: 0.625rem 1.875rem;
+    list-style-type: none;
+    gap: 1.875rem;
+    /*scrollbar-width: none;
+    overflow-x: scroll;*/
+}
+
+.exclusive__classes__item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 17.8125rem;
+    min-height: 28.6875rem;
+    border-radius: 1rem;
+    box-shadow: 0 0.1875rem 1.0625rem rgba(0,0,0,.1);
+    outline: 0.125rem solid transparent;
+    flex-shrink: 0;
+    transition: .25s;
+}
+
+.exclusive__classes__item:hover{
+    outline: 0.125rem solid #ffad12;
+}
+
+.exclusive__classes__img__container{
+    width: 100%;
+    height: auto;
+}
+
+.exclusive__classes__img{
+    display: block;
+    border-radius: 0.875rem 0.875rem 0 0;
+    width: 100%;
+    height: 10.625rem;
+    object-fit: cover;
+}
+
+.exclusive__classes__figcaption{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffad12;
+    color: #000;
+    font-weight: 700;
+    padding: 0.3125rem 1rem;
+    font-size: 0.875rem;
+    width: 100%;
+    height: 2.625rem;
+}
+
+.exclusive__classes__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.25rem;
+    width: 100%;
+    height: auto;
+}
+
+.exclusive__classes__about{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    list-style-type: none;
+}
+
+.exclusive__classes__item__about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 4.75rem;
+    width: auto;
+}
+
+.exclusive__classes__svg__container{
+    min-height: 2.0625rem;
+    margin-bottom: 0.3125rem;
+}
+
+.exclusive__classes__svg{
+    width: 1.8125rem;
+    min-height: 1.8125rem;
+}
+
+.exclusive__classes__svg__batery{
+    width: 2.125rem;
+    min-height: 1.8125rem;
+}
+
+.exclusive__classes__item__text__title{
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #000;
+    line-height: 1.5;
+}
+
+.exclusive__classes__item__text{
+    font-size: 0.75rem;
+    color: #000;
+    line-height: 1.5;
+}
+
+.exclusive__classes__ruler{
+    margin: 1.25rem 0;
+    width: 100%;
+    border: 0;
+    border-bottom: 0.0625rem solid #e1e1e1;
+    
+}
+
+.exclusive__classes__description{
+    font-size: 0.875rem;
+    color: #1c1c1c;
+    text-align: left;
+    max-height: 10.625rem;
+    line-height: 1.05rem
+}
+
+.exclusive__classes__link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.625rem 1rem;
+    margin-top: 0.9375rem;
+    font-size: 0.8125rem;
+    font-weight: 600;
+    color: #1c1c1c !important;
+    line-height: 1.5;
+}
+
+.exclusive__classes__container__card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 17.8125rem;
+    height: 31.8125rem;
+    padding: 1rem;
+    border-radius: 0.875rem;
+}
+
+.exclusive__classes__container__card__img{
+    width: 11.875rem;
+    height: 10.0625rem;
+}
+
+.exclusive__classes__card__img{
+    width: 100%;
+    height: auto;
+}
+
+.exclusive__classes__container__card__title{
+    margin: 1.25rem 0 0.4375rem;
+    font-size: 1.25rem;
+    font-weight: 900;
+    color: #000;
+    line-height: 1.5;
+}
+
+.exclusive__classes__container__card__text{
+    margin: 0 0 1.5625rem;
+    font-size: 0.875rem;
+    color: #1c1c1c;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.exclusive__classes__container__card__bold{
+    font-weight: bold;
+}
+
+.exclusive__classes__container__card__link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.125rem solid #1c1c1c !important;
+    border-radius: 1.625rem;
+    font-size: 0.875rem !important;
+    font-weight: 700;
+    color: #1c1c1c;
+    padding: 0.5rem 1rem;
+    line-height: 1.125rem !important;
+    max-width: 19.6875rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.exclusive__classes__container__card__link:hover{
+    background-color: #1c1c1c !important;
+    color: var(--button-font-color) !important;
+}
+
+.exclusive__classes__adjust__button{
+    margin: 2.1875rem 0;
+}

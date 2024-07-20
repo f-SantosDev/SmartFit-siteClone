@@ -1,0 +1,89 @@
+.connect__container{
+    width: 100%;
+    height: auto;
+    margin: 1.25rem 0 0;
+    background-color: #fff0d2;
+}
+
+.connect__container__content{
+    display: flex;
+    justify-content: space-between;
+    max-width: 75rem;
+    min-width: 27.5rem;
+    height: auto;
+    margin: 0 auto;
+    padding: 1.875rem 1.25rem;
+    gap: 1.25rem;
+}
+
+.connect__container__description{
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    width: 100%;
+    max-width: 26.5625rem;
+    padding-top: 1.25rem;
+}
+
+.connect__description__title{
+    font-size: 2rem;
+    line-height: 2.375rem;
+    font-weight: 900;
+    color: #333;
+}
+
+.connect__description__list{
+    list-style-type: disc;
+    padding-left: 1.5625rem;
+    font-size: 0.9375rem;
+    line-height: 1.5rem;
+    color: #333;
+}
+
+.connect__description__text{
+    font-size: 0.9375rem;
+    color: #333;
+}
+
+.connect__description__bold{
+    font-weight: 900;
+}
+
+.connect__description__container__img{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 2rem;
+    width: 100%;
+    height: auto;
+    margin-bottom: 1.25rem;
+}
+
+.connect__description__img{
+    width: 7.0625rem;
+    height: 7.0625rem;
+}
+
+.connect__description__img__container__list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.connect__description__img__item{
+    width: 8.75rem;
+    height: 2.5rem;
+}
+
+.online__training__container{
+    display: flex;
+    align-self: end;
+    justify-content: center;
+    width: 100%;
+    max-width: 33.125rem;
+    min-width: 18.75rem;
+    height: 17.5rem;
+    background-color: #ffb612;
+    border-radius: 0.625rem;
+    align-items: end;
+}

@@ -1,0 +1,37 @@
+@import url("header.css");
+@import url("banner.css");
+@import url("search_gym.css");
+@import url("new_plans.css");
+@import url("experience.css");
+@import url("classes.css");
+@import url("connect.css");
+@import url("gym_plus.css");
+@import url("footer.css");
+@import url("accessibility.css");
+@import url("contact.css");
+@import url("queries_768px.css");
+
+
+:root{
+    --button-backgroud-color: #d52b13;
+    --button-backgroud-color-hover: #aa2218;
+    --button-font-color: #fff;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'DM Sans', sans-serif;
+}
+
+sub{
+    font-weight: 400;
+    font-size: 0.875rem;
+}
+
+/*
+body{
+    background-color: #e2e8f0;
+}*/

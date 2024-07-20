@@ -1,0 +1,144 @@
+.gym__plus__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin-top: 2.5rem;
+}
+
+.gym__plus__text_adjust{
+    margin: 0;
+}
+
+.gym__plus__container__list{
+    display: flex;
+    justify-content: center;
+    gap: 1.875rem;
+    flex-wrap: nowrap;
+    padding: 2.1875rem 0;
+    margin: 0 auto;
+}
+
+.gym__plus__container__list__item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 14.375rem;
+    min-height: 23.125rem;
+    padding: 1.25rem 0.9375rem;
+    border-radius: 1.25rem;
+    outline: 0.125rem solid transparent;
+    box-shadow: 0 0.1875rem 1.0625rem rgba(0,0,0,.1);
+    flex-shrink: 0;
+    transition: .25s;
+    gap: 0.625rem;
+}
+
+.gym__plus__container__list__item:hover{
+    outline: 0.125rem solid #ffad12;
+}
+
+.gym__plus__container__img{
+    text-align: center;
+    max-width:12.5rem;
+    max-height:12.5rem;
+    width: 11rem;
+    height: 4rem;
+}
+
+.gym__plus__img{
+    width: 100%;
+}
+
+.gym__plus__container__list__link{
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: 900;
+    color: #1c1c1c;
+    line-height: 1.5;
+}
+
+.gym__plus__description{
+    text-align: center;
+    color: #656565;
+    font-size: 0.75rem;
+    padding-bottom: 1.25rem;
+    font-weight: 300;
+    line-height: 0.875rem;
+    font-size: 0.75rem;
+}
+
+.gym__plus__price{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: auto;
+    margin-top: auto;
+}
+
+.gym__plus__price__container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    width: 100%;
+    color: #1c1c1c;
+    font-size: 1rem;
+    border-top: .9px solid #e1e1e1;
+    padding-top: 0.625rem;
+}
+
+sub.gym__plus__price__symbol{
+    position: relative;
+    top: 0.9375rem;
+}
+
+.gym__plus__price__whole{
+    font-weight: 900;
+    font-size: 2.3125rem;
+}
+
+sup.gym__plus__price__fraction{
+    font-weight: 900;
+    font-size: 1.25rem;
+}
+
+.gym__plus__price__period{
+    font-size: 0.875rem;
+    font-weight: 400;
+    margin: 0.1875rem 0 0 0.0625rem;
+}
+
+.gym__plus__duration__plan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 0.75rem;
+    min-height: 2.5rem;
+    padding-bottom: 0.625rem;
+    font-size: 0.625rem;
+    color: #656565;
+}
+
+.gym__plus__know_more__button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 19.6875rem;
+    background-color: #ffad12;
+    font-size: 0.875rem !important;
+    font-weight: 700;
+    color: #1c1c1c !important;
+    line-height: 1.125rem !important;
+    padding: 0.5rem 1rem;
+    border-radius: 1.625rem;
+    cursor: pointer;
+}
+
+.gym__plus__know_more__button:hover{
+    background-color: #bc7f0a;
+}

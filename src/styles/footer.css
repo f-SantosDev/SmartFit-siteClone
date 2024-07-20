@@ -1,0 +1,132 @@
+.footer__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    background-color: #000;
+    padding: 2.8125rem 1.25rem 5.625rem;
+}
+
+.footer__container__section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 75rem;
+    height: auto;
+    padding: 1.875rem 0;
+    border-bottom: 0.0625rem solid #c2c2c2;
+    color: #fff;
+    line-height: 1.5;
+}
+
+.footer__header__img{
+    margin: 0 auto;
+}
+
+.footer__text__title{
+    line-height: 1.5;
+    font-size: 1.25rem;
+    margin-bottom: 1.5625rem;
+}
+
+.footer__container__list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.9375rem;
+    list-style-type: none;
+}
+
+.footer__item__link{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.footer__item__img{
+    width: 2.1875rem;
+    height: 2.125rem;
+}
+
+.footer__links__container{
+    display: flex;
+    gap: 6.25rem;
+}
+
+.footer__link__container__content{
+    margin-left: 1.25rem;
+}
+
+.footer__links__list{
+    display: flex;
+    flex-direction: column;
+    /*flex-wrap: wrap;*/
+    list-style-type: none;
+}
+
+.footer__links__item{
+    margin-bottom: 0.625rem;
+    line-height: 1.7;
+    font-size: 0.875rem;
+}
+
+.footer__links__item__link{
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.875rem;
+    line-height: 1.0625rem;
+}
+
+.footer__container__section__adjust{
+    border: 0;
+    line-height: 1rem;
+}
+
+.footer__text__paragraph{
+    font-size: 0.875rem;
+}
+
+.footer__text__paragraph__link{
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.875rem;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.footer__text__paragraph__email{
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.75rem;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.footer__container__author{
+    border-top: 0.0625rem solid #ffad12;
+    padding: 1.25rem;
+}
+
+.footer__text__author{
+    font-size: 1.875rem;
+    font-weight: 900;
+    color: rgba(255,255,255,.7);
+    line-height: 1.35;
+    text-align: center;
+    transition: .5s;
+}
+
+.footer__text__author__paragraph{
+    text-align: center;
+    font-size: 1.125rem;
+    color: #fff;
+    line-height: 1rem;
+}
+
+.footer__text__author__name{
+    color: #ffad12;
+    text-wrap: nowrap;
+}
