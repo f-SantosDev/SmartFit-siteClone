@@ -27,6 +27,13 @@ html{
     font-family: 'DM Sans', sans-serif;
 }
 
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 sub{
     font-weight: 400;
     font-size: 0.875rem;
