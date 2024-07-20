@@ -1,0 +1,11 @@
+@media only screen and (max-width: 440px){
+
+    .header__nav__logo_img{
+        width: 6.0625rem;
+        height: auto;
+    }
+
+    .nav__start__button{
+        width: 120px;
+    }
+}
