@@ -9,7 +9,8 @@
 @import url("footer.css");
 @import url("accessibility.css");
 @import url("contact.css");
-@import url("queries_768px.css");
+@import url("query_768px.css");
+@import url("query_400px.css");
 
 
 :root{
