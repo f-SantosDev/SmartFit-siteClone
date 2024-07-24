@@ -4,14 +4,6 @@
     align-items: center;
 }
 
-.teste{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    
-}
-
 .exclusive__classes__container{
     display: flex;
     justify-content: center;
